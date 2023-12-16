@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6B3CC9;
+    padding: 26px 80px 26px 80px;
+    width: 1440px;
+    
+}
+
+.navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo{
+    margin-right: 80px;
+}
+
+.navbar-logo img{
+    width: 238.89px;
+    height: 36.11px;
+}
+
+.navbar-links-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links-container p,
+.navbar-menu-container p{
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500px;
+    line-height: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 28px;
+    cursor: pointer;
+}
+
+.navbar-menu{
+    margin-left: 10px;
+    display: none;
+    position: relative;
+}
+
+.navbar-menu img{
+    cursor: pointer;
+}
+
+.navbar-menu-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 26px 80px;
+    top: 40px;
+    right: 0;
+    margin-top: 26px ;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,2);
+    margin-left: 28px;
+
+}
+
+.navbar-links-container p
+{
+    margin: 0rem 28px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        padding: 26px 60px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        padding: 26px 40px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .navbar{
+        padding: 26px 20px;
+    }
+    .navbar-links-container{
+        top : 20px;
+    }
+
+    
+
+}
+
+
+

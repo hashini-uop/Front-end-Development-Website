@@ -1,4 +1,7 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +13,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+:root{
+
+
+  --font_family : 'Inter', sans-serif;
+  --primary_color : #6B3CC9;  /*highlight */
+  --secondary_color : #F28035;
+  --analogus_color1 : #6A44F2;
+  --analogus_color2 : #1CBDDD;
+  --Triadic_color1 : #52378c;
+  --dark_color : #78BF91 , #4DCA79; 
+  --text_color : #2F2F2F;
+
+  --gradient-bg : linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+
+
+  --desktop : 1440px;
+  --laptop : 1200px; /*same*/
+  --tablet : 768px; /*footer 1 col*/
+  --phone : 375px;
+
+
+
+
+
+
 }

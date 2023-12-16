@@ -1,0 +1,51 @@
+.header {
+    width: 1440px;
+    height: 763px;
+    background-image: url(../../assests/Images/Hero\ Section.png);
+    /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.header-content {
+    position: absolute;
+    display: flex;
+    width: 630px;
+    padding: 24px 40px 32px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+    margin-left: 80px;
+    flex: 1;
+    top: 394px;
+    margin-bottom: -80px;
+}
+
+.content {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+    width: 556px;
+
+}
+
+@media screen and (max-width : 1200px) {
+    .header-content {
+        width: 622px;
+        padding: 24px 40px 32px 40px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .header {
+        flex-direction: column;
+    }
+}
